@@ -11,7 +11,7 @@ Embedded Engineers Write Code, But Unlike Software Engineers They Need A Deep Un
   * Install The Tools ![100%](https://progress-bar.dev/100)
 * [Unit 2: C Programming](www.google.com)
   * Lecture 1: Intro To Embedded ![0%](https://progress-bar.dev/0)
-  * Lecture 2: Git Tutorial ![50%](https://progress-bar.dev/50)
+  * [Lecture 2: Git Tutorial](https://github.com/AhmedShehatah/Mastering-Embedded-Systems/tree/main/Term%201/Unit%202%20C%20Programing) ![50%](https://progress-bar.dev/50)
   * [Lecture 3: C Basics](www.google.com)  ![50%](https://progress-bar.dev/50)
   * Lecture 4: C Arrays & Strings ![0%](https://progress-bar.dev/0) ![0%](https://progress-bar.dev/0)
   * Lecture 5: C Functions ![0%](https://progress-bar.dev/0)
