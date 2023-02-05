@@ -12,4 +12,4 @@ Embedded Engineers Write Code, But Unlike Software Engineers They Need A Deep Un
 * [Unit 2](www.google.com)
   * Lecture 1: Intro To Embedded ![0%](https://progress-bar.dev/0)
   * Lecture 2: Git Tutorial ![50%](https://progress-bar.dev/50)
-  * [Lecture 3: C Basics] (www.google.com)  ![50%](https://progress-bar.dev/50)
+  * [Lecture 3: C Basics](www.google.com)  ![50%](https://progress-bar.dev/50)
