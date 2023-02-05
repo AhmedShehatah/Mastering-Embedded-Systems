@@ -6,4 +6,4 @@ Embedded Engineers Write Code, But Unlike Software Engineers They Need A Deep Un
 
 ## My Progress
 ### First Term ![1%](https://progress-bar.dev/1?title=InProgress)
-..* [Unit 2: Lecture 1](www.google.com)
+. . *  [Unit 2: Lecture 1](www.google.com)
