@@ -29,5 +29,5 @@ Embedded Engineers Write Code, But Unlike Software Engineers They Need A Deep Un
   * Lecture 1 ![0%](https://progress-bar.dev/0)
   * Lecture 2 ![0%](https://progress-bar.dev/0)
   * Lecture 3 ![0%](https://progress-bar.dev/0)
-### First Term Exam ![0%](https://progress-bar.dev/0)
-### First Term Project ![0%](https://progress-bar.dev/0)
+#### First Term Exam ![0%](https://progress-bar.dev/0)
+#### First Term Project ![0%](https://progress-bar.dev/0)
