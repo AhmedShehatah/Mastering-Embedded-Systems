@@ -5,7 +5,7 @@ Online Embedded Systems Diploma From [Learn in Depth](https://www.learn-in-depth
 Embedded Engineers Write Code, But Unlike Software Engineers They Need A Deep Understanding Of The Hardware It Runs On. An Embedded Engineer Knows The Schematics Of Hardware And How Chip Datasheets Relate To The Code Written For Them. They Are Responsible For Designing, Developing, Optimizing And Implementing The Software That Is Programmed Into Devices Built Around A Microprocessor. 
 
 ## Content & My Progress
-### First Term ![1%](https://progress-bar.dev/1?title=InProgress)
+### First Term ![20%](https://progress-bar.dev/1?title=InProgress)
 * Unit 1 (Diploma Prerequisites)
   * Understanding The System ![100%](https://progress-bar.dev/100)
   * Install The Tools ![100%](https://progress-bar.dev/100)
@@ -13,7 +13,7 @@ Embedded Engineers Write Code, But Unlike Software Engineers They Need A Deep Un
   * Lecture 1: Intro To Embedded ![100%](https://progress-bar.dev/100)
   * [Lecture 2: Git Tutorial](https://github.com/AhmedShehatah/Mastering-Embedded-Systems/tree/main/Term%201/Unit%202%20C%20Programing/Lecture%202_%20Git%20Tutorial) ![100%](https://progress-bar.dev/100)
   * [Lecture 3: C Basics](www.google.com)  ![30%](https://progress-bar.dev/30)
-  * Lecture 4: C Arrays & Strings ![0%](https://progress-bar.dev/0) ![0%](https://progress-bar.dev/0)
+  * Lecture 4: C Arrays & Strings ![0%](https://progress-bar.dev/0)
   * Lecture 5: C Functions ![0%](https://progress-bar.dev/0)
   * Mid Term 1 ![0%](https://progress-bar.dev/0)
   * Lecture 6: Struct & Union & Enum ![0%](https://progress-bar.dev/0)
