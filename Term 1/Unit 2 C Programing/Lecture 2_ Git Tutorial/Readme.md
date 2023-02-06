@@ -65,9 +65,8 @@ some developers prefere to replace second by third half
 2. +, -
 3. =
 
-## Input Output (I/O) in C
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+## Input Output (I/O) in c
+```C
+// To show data in the console
+printf("Your message here");
 ```
