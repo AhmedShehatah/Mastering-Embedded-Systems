@@ -3,7 +3,7 @@
  * @email [ahmed2002.eg@mail.com]
  * @create date 2023-02-07 15:14:50
  * @modify date 2023-02-07 15:14:50
- * @desc EX 4 is number pos, neg, or zeero
+ * @desc EX 5 is Alpha
  */
 #include <stdio.h>
 int main()
