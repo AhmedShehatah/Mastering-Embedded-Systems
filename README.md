@@ -8,7 +8,7 @@ Embedded Engineers Write Code, But Unlike Software Engineers They Need A Deep Un
 
 ## Content & My Progress
 
-### First Term ![26%](https://progress-bar.dev/26?title=InProgress)
+### First Term ![28%](https://progress-bar.dev/28?title=InProgress)
 
 - Unit 1 (Diploma Prerequisites)
   - Understanding The System ![100%](https://progress-bar.dev/100)
@@ -17,7 +17,7 @@ Embedded Engineers Write Code, But Unlike Software Engineers They Need A Deep Un
   - Lecture 1: Intro To Embedded ![100%](https://progress-bar.dev/100)
   - [Lecture 2: Git Tutorial](https://github.com/AhmedShehatah/Mastering-Embedded-Systems/tree/main/Term%201/Unit%202%20C%20Programing/Lecture%202_%20Git%20Tutorial) ![100%](https://progress-bar.dev/100)
   - [Lecture 3: C Basics](www.google.com) ![99%](https://progress-bar.dev/99)
-  - [Lecture 4: C Arrays & Strings](https://github.com/AhmedShehatah/Mastering-Embedded-Systems/tree/main/Term%201/Unit%202%20C%20Programing/Lecture%204%20C%20Arrays) ![30%](https://progress-bar.dev/30)
+  - [Lecture 4: C Arrays & Strings](https://github.com/AhmedShehatah/Mastering-Embedded-Systems/tree/main/Term%201/Unit%202%20C%20Programing/Lecture%204%20C%20Arrays) ![50%](https://progress-bar.dev/50)
   - [Lecture 5: C Functions](https://github.com/AhmedShehatah/Mastering-Embedded-Systems/tree/main/Term%201/Unit%202%20C%20Programing/Lecture%205%20C%20Functiuons) ![50%](https://progress-bar.dev/50)
   - Mid Term 1 ![0%](https://progress-bar.dev/0)
   - Lecture 6: Struct & Union & Enum ![0%](https://progress-bar.dev/0)
