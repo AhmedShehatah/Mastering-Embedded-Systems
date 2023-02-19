@@ -16,7 +16,7 @@ Embedded Engineers Write Code, But Unlike Software Engineers They Need A Deep Un
 - [Unit 2: C Programming](https://github.com/AhmedShehatah/Mastering-Embedded-Systems/tree/main/Term%201/Unit%202%20C%20Programing)
   - Lecture 1: Intro To Embedded ![100%](https://progress-bar.dev/100)
   - [Lecture 2: Git Tutorial](https://github.com/AhmedShehatah/Mastering-Embedded-Systems/tree/main/Term%201/Unit%202%20C%20Programing/Lecture%202_%20Git%20Tutorial) ![100%](https://progress-bar.dev/100)
-  - [Lecture 3: C Basics](www.google.com) ![99%](https://progress-bar.dev/99)
+  - [Lecture 3: C Basics](https://github.com/AhmedShehatah/Mastering-Embedded-Systems/tree/main/Term%201/Unit%202%20C%20Programing/Lecture%203%20C%20Basics) ![99%](https://progress-bar.dev/99)
   - [Lecture 4: C Arrays & Strings](https://github.com/AhmedShehatah/Mastering-Embedded-Systems/tree/main/Term%201/Unit%202%20C%20Programing/Lecture%204%20C%20Arrays) ![50%](https://progress-bar.dev/50)
   - [Lecture 5: C Functions](https://github.com/AhmedShehatah/Mastering-Embedded-Systems/tree/main/Term%201/Unit%202%20C%20Programing/Lecture%205%20C%20Functiuons) ![50%](https://progress-bar.dev/50)
   - Mid Term 1 ![0%](https://progress-bar.dev/0)
