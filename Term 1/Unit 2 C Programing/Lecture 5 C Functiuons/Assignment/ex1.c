@@ -25,7 +25,7 @@ char isPrime(int x)
         if (x % i == 0)
             return 0;
 
-    return 1;
+    return (x != 1) ? 1 : 0;
 }
 void printPrimes()
 {
