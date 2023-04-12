@@ -1,4 +1,3 @@
-## Aligned and un-aligned data access on structs
 
 # Structures & Unions & Enums
 
