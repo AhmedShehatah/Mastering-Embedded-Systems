@@ -1,4 +1,3 @@
-
 # Structures & Unions & Enums
 
 ## Structures
@@ -156,3 +155,75 @@ Union is a pecial data type that supports different overlapped data types.
   ```
 
 union holds only one data type at the same time if we used value of int we can't you value of double, and if we used value of double value of int are overwriten.
+
+
+
+
+
+# 
+
+# Section & Quiz Tricks
+
+- Notice this Code
+
+```c
+#include <stdio.h>
+struct STest
+{
+    int bit1 : 1;
+    int bit2 : 4;
+    int bit3 : 4; //1011 => 13 unsigned --> -8 + 5 =-3 for signed int
+} test = {1, 2, 13};
+int main()
+{
+    printf("%d, %d, %d\n", test.bit1, test.bit2, test.bit3);
+}
+```
+
+The problem is that `bit1` is defined with only 1 bit, which means it can only represent two values: 0 and 1. However, the value 1 is assigned to `bit1`, which is outside the range of representable values for a signed 1-bit integer. In this case, the behavior is undefined according to the C standard.
+
+In practice, some compilers will interpret the value 1 as -1 in this particular case. This happens because 1 has its most significant bit set to 1, which, when interpreted as a signed 1-bit integer, represents the value -1.
+
+
+
+
+
+- Notice this
+  
+  ```c
+  struct STest
+  {
+      int bit : 40; // gives compile error "width of 'bit' exceeds its type"
+  } test;
+  ```
+
+ 
+
+- Notice this
+  
+  ```c
+  struct STest
+  {
+      float bit : 3; //  bit-field 'bit' has invalid type
+  } test;
+  ```
+
+bit field doesn't accept decimal numbers.
+
+
+
+- *Structures can't be compared with ==*
+
+- Structues can't have data from the same struct name
+  
+  ```c
+  struct STest {
+      STest field; // error
+  }
+  ```
+
+
+
+- Notice this
+  
+  ```C
