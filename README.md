@@ -6,6 +6,24 @@ Online Embedded Systems Diploma From [Learn in Depth](https://www.learn-in-depth
 
 Embedded Engineers Write Code, But Unlike Software Engineers They Need A Deep Understanding Of The Hardware It Runs On. An Embedded Engineer Knows The Schematics Of Hardware And How Chip Datasheets Relate To The Code Written For Them. They Are Responsible For Designing, Developing, Optimizing And Implementing The Software That Is Programmed Into Devices Built Around A Microprocessor.
 
+
+
+## Achievements
+
+# TOP 5
+
+- First Term
+
+![TOP 5](https://user-images.githubusercontent.com/35743597/236694478-1bb3d35e-9e94-440a-b170-27afb02ec486.png)
+
+# Excellent Github Repo Review
+
+ <img src="https://user-images.githubusercontent.com/35743597/236694348-2017113c-9ddc-425b-aeaf-37a00bdb8ffe.jpg" title="" alt="review" style="zoom:50%;">
+
+
+
+
+
 ## Content & My Progress
 
 ### First Term ![30%](https://progress-bar.dev/30?title=InProgress)
