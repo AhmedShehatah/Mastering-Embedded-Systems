@@ -8,19 +8,11 @@
 
 ## Compilers vs Interpreters
 
-| Compilers                                                             | Interpreters                                                 |
-|:--------------------------------------------------------------------- |:------------------------------------------------------------ |
-| Compiler reads the entire source                                      |                                                              |
-| code of the program and converts it into binary code. This process is |                                                              |
-| called compilation.                                                   |                                                              |
-| Binary code is also referred as machine code, executable, and         |                                                              |
-| object code.                                                          | Interpreter reads the program source code one line at a time |
-| and executing that line. This                                         |                                                              |
-| process is called interpretation.                                     |                                                              |
-| Program speed is fast.                                                | Program speed is slow.                                       |
-| One time execution Example: C, C++                                    | Interpretation occurs at every line of the                   |
-| program.                                                              |                                                              |
-| Example: BASIC                                                        |                                                              |
+| Compilers                                                                                                                                                                                                                                                             | Interpreters                                                 |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------ |
+| Compiler reads the entire source code of the program and converts it into binary code. This process is called compilation. Binary code is also referred as machine code, executable, and object code. and executing that line. This process is called interpretation. | Interpreter reads the program source code one line at a time |
+| Program speed is fast.                                                                                                                                                                                                                                                | Program speed is slow.                                       |
+| One time execution Example: C, C++                                                                                                                                                                                                                                    | Example: BASIC                                               |
 
 
 
@@ -141,17 +133,17 @@ Pragma startup always execute the function before the main function pragma exit 
 
 ## Macros Vs Functions
 
-| Macros                                                   | Functions                                              |
-| -------------------------------------------------------- | ------------------------------------------------------ |
-| Macro is Preprocessed                                    | Function is Compiled                                   |
-| No Type Checking                                         | Type Checking is Done                                  |
-| Code Length Increases                                    | Code Length remains Same                               |
-| Speed of Execution is Faster                             | Speed of Execution is Slower                           |
-| Before Compilation macro name
-is replaced by macro value | During function call , Transfer of Control takes place |
-| Useful where small code appears many time                | Useful where large code appears many time              |
-| Generally Macros do not extend
-beyond one line           | Function can be of any number of lines                 |
+| Macros                                    | Functions                                              |
+| ----------------------------------------- | ------------------------------------------------------ |
+| Macro is Preprocessed                     | Function is Compiled                                   |
+| No Type Checking                          | Type Checking is Done                                  |
+| Code Length Increases                     | Code Length remains Same                               |
+| Speed of Execution is Faster              | Speed of Execution is Slower                           |
+| Before Compilation macro name             |                                                        |
+| is replaced by macro value                | During function call , Transfer of Control takes place |
+| Useful where small code appears many time | Useful where large code appears many time              |
+| Generally Macros do not extend            |                                                        |
+| beyond one line                           | Function can be of any number of lines                 |
 
 
 
@@ -218,3 +210,28 @@ int main(){
 - The flash memory of the micro-controller is indeed write-protected, that means the operation won’t have any effect
 
 - In the PC, the program crashes because we’re trying to write in the write protected section
+
+
+
+
+
+# Section & Quiz Tricks
+
+
+
+The most important note in Macros it's a *"Text Replacement"* 
+
+-  Notice this: Can't define variables inside braces
+
+```c
+#define var(a,b) (b a)
+
+int main(){
+    var(x, int);// gives an error
+    // because in text replacemnet it will be (int x); which is wrong
+}
+```
+
+- Macros is always global scope
+
+- Preprocessor doesn't trap any kind of errors.
