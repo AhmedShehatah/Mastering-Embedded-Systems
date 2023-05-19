@@ -45,11 +45,11 @@ Important Notes
   
 
 - Notice this
-
- ```c
+  
+  ```c
   int arr[10];
   arr++ // invalid array address is fixed
- ```
+  ```
   
   ## **Pointer to Strucutre**
   
@@ -97,4 +97,10 @@ int main()
 
 ```
 
+## **Pointer to Pointer**
 
+From its title it's a pointer that points on another pointer 
+
+```c
+
+```
