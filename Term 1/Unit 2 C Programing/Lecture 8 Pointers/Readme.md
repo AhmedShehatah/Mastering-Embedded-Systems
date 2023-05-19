@@ -46,10 +46,10 @@ Important Notes
 
 - Notice this
 
-- ```c
+ ```c
   int arr[10];
   arr++ // invalid array address is fixed
-  ```
+ ```
   
   ## **Pointer to Strucutre**
   
