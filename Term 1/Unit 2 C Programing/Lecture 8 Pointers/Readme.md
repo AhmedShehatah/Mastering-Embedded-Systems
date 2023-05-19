@@ -102,5 +102,15 @@ int main()
 From its title it's a pointer that points on another pointer 
 
 ```c
+#include <stdio.h>
+int main()
+{
+    int x = 5;
+    int *px = &x;    // pointer
+    int **ppx = &px; // pointer to pointer
+    return 0;
+}
 
 ```
+
+
