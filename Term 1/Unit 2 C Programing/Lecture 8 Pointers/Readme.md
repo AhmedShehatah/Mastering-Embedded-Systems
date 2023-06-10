@@ -38,7 +38,7 @@ px++; // px = 0x4
 
 Important Notes
 
-- Each time pointer is increamented or decreamented it points to the memory location of the next element of its base type e.g. if pointer from type `char` if pointer `char px = 0x0` and me made `px++` now `px = 0x1` and if it's from type `long long` then `px = 0x8` 
+- Each time pointer is increamented or decreamented it points to the memory location of the next element of its base type e.g. if pointer from type `char` if pointer `char px = 0x0` then we increase it `px++` now `px = 0x1` and if it's from type `long long` then `px = 0x8` 
 
 - There are only two arithmetic operations that you can use on pointers: <u>addition </u>and <u>subtraction</u>.  
   
@@ -251,5 +251,81 @@ Look at `*` there is two conditions if `const` after of before the the `*`
 - Near, Far, Huge Pointers
   
   - This is not standard C syntax. This was an added feature for < 32-bit compilers.
+    
+    
+    
+    
+
+# Section Tricks
+
+Notice this code 
+
+```c
+#include <stdio.h>
+int main()
+{
+    int a;
+    char *x;
+    x = (char *)&a;
+    a = 512;
+    x[0] = 1;
+    x[1] = 2;
+    printf("%d", a);
+    return 0;
+}
+
+```
+
+it's machine dependant if it's little endian or big indian.. but by default it's little endian if not mentioned machine dependant
+
+
+
+
+
+Notice this
+
+```c
+(* ptr)[2][3]// this pointers point on the whole array
+// so if we say (ptr + 1) means now it points to another location is not in the array
+```
+
+
+
+Notice the difference between `++*ptr` & `*ptr++`
+
+```c
+*ptr++ // will increase the address of the pointer at first then gets its value
+++*ptr // will get the value at first then increase it   
+```
+
+
+
+- Pointer at least points on **one byte**
   
   
+
+Notice this trick : `*&ptr` & `&*ptr` `&` and `*` cancels each other so the two syntax equals `ptr`
+
+
+
+notice this trick: this code gives **no error in compile time**  but segment fault in run time because address of x maybe invalid to access
+
+```c
+int main(){
+    int *x;
+    *x =100;
+    return 0;
+}
+```
+
+
+
+- Notice this behavior in 2D array
+
+```c
+int arr[2][3]
+// arr points to first row in the array
+// arr + 1 points to second row in the array
+```
+
+
