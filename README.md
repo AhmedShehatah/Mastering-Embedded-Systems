@@ -36,7 +36,7 @@ Embedded Engineers Write Code, But Unlike Software Engineers They Need A Deep Un
   - Mid Term 1 ![100%](https://progress-bar.dev/100)
   - [Lecture 6: Struct & Union & Enum](https://github.com/AhmedShehatah/Mastering-Embedded-Systems/tree/main/Term%201/Unit%202%20C%20Programing/Lecture%206%20Structure%20%26%20union%20%26%20enum) ![100%](https://progress-bar.dev/100)
   - [Lecture 7: Pre-processor directives in C](https://github.com/AhmedShehatah/Mastering-Embedded-Systems/tree/main/Term%201/Unit%202%20C%20Programing/Lecture%207%20Pre-processor%20directives) ![99%](https://progress-bar.dev/99)
-  - Lecture 8: C Pointers ![0%](https://progress-bar.dev/0)
+  - [Lecture 8: C Pointers]([Mastering-Embedded-Systems/Term 1/Unit 2 C Programing/Lecture 8 Pointers at main · AhmedShehatah/Mastering-Embedded-Systems · GitHub](https://github.com/AhmedShehatah/Mastering-Embedded-Systems/tree/main/Term%201/Unit%202%20C%20Programing/Lecture%208%20Pointers)) ![99%](https://progress-bar.dev/99)
 - Unit 3: Embedded C
   - Lecture 1 ![0%](https://progress-bar.dev/0)
   - Lecture 2 ![0%](https://progress-bar.dev/0)
