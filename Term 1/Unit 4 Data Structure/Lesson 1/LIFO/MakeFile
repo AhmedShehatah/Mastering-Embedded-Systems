@@ -1,0 +1,13 @@
+CC=gcc
+SRC=$(wildcard *.c)
+OBJ=$(SRC:.c=.o)
+PROJECT_NAME=stack_impl
+
+all: $(PROJECT_NAME).exe
+	@echo "================ DONE BUILDING ===================="
+	@./$(PROJECT_NAME)
+%.o: %.c
+	$(CC) -c  $< 
+
+$(PROJECT_NAME).exe: $(OBJ)
+	$(CC) -o $(PROJECT_NAME) $(OBJ)
